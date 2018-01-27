@@ -1,4 +1,4 @@
-package hello.domain;
+package hello.project.domain;
 
 import org.springframework.stereotype.Repository;
 

@@ -23,5 +23,6 @@ com
              +- CustomerController.java
 ```
 
+* ** WARNING ** : Your ApplicationContext is unlikely to start due to a @ComponentScan of the default package.
+don't advise coder to set Application.java in the root package.
 
-    
