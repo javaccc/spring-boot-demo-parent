@@ -5,6 +5,8 @@
 
     <properties>
         <java.version>1.8</java.version>
+        <!--spring-boot-starter-parent sets the resources plugin delimiter to @ rather than the default ${*} - you can override this with the ${resource.delimiter} property.-->
+        <resource.delimiter>${*}</resource.delimiter>
     </properties>
 
     <groupId>org.springframework</groupId>
@@ -23,6 +25,7 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
+        <!-- don't use in production env -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
